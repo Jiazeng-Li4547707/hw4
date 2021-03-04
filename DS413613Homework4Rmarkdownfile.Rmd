@@ -9,4 +9,6 @@ output: word_document
 library(tidyverse)
 mpg
 
+plot(mpg$cty ~ mpg$hwy)
+
 ```
